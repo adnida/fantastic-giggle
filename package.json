@@ -1,0 +1,25 @@
+{
+  "name": "fantastic-giggle",
+  "version": "1.0.0",
+  "description": "vanilla seed with es6 and jasmine",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets es2015 src -d lib",
+    "test": "babel-node spec/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnida/fantastic-giggle.git"
+  },
+  "author": "Adinda Savitri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adnida/fantastic-giggle/issues"
+  },
+  "homepage": "https://github.com/adnida/fantastic-giggle#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jasmine": "^2.9.0"
+  }
+}
